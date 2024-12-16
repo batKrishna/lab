@@ -1,0 +1,8 @@
+PGMI  START 1000
+FIRST    LDA  NUM
+         ADD  FACT
+         STA  RESULT
+NUM      WORD 5
+FACT     WORD 10
+RESULT   RESW 1
+         END FIRST
